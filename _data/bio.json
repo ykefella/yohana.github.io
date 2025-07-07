@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "name": "Samuel Bunga",
+    "label": "Bioinformatics Software Developer",
+    "picture": "/images/sam.jpg",
+    "email": "bunga.s@northeastern.edu",
+    "phone": "857-701-9190",
+    "website": "https://samuelbunga.github.io",
+    "summary": "Hi! I'm a Bioinformatics Software Developer at Harvard Medical School. I am working on supporting the DARPA Panacea project which aims in developing new therapeutic drugs to block pain and inflammation using novel pharmacological platforms. My primary responsibilities are to develop and maintain existing RNA-Seq bulk/single-cell pipelines and also to develop new modules and integrate them into the pipelines using INDRA modeling systems developed at the Laboratory of Systems Pharmacology (LSP).",
+    "location": {
+      "address": "",
+      "postalCode": "92122",
+      "city": "San Diego",
+      "countryCode": "USA",
+      "region": "Massachusetts"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "samuelbunga",
+        "url": "http://github.com/samuelbunga"
+      },
+      {
+        "network": "linkedin",
+        "username": "samuelbunga",
+        "url": "http://linkedin.com/in/samuelbunga"
+      },
+      {
+        "network": "instagram",
+        "username": "thebluenerve",
+        "url": "http://instagram.com/thebluenerve"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Single Cell Genomics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Network inference",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Bioinformatics software development",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming/Development",
+      "level": "",
+      "keywords": [
+        "Python", "JavaScript", "R", "Shell Scripting", "Nextflow", "PHP", "CI/CD", "Git", "AWS"
+      ]
+    },
+    
+  ],
+  "education": [
+    {
+      "institution": "Northeastern University, Boston, MA",
+      "area": "Bioinformatics",
+      "studyType": "M.S.",
+      "startDate": "August 2018",
+      "endDate": "May 2020",
+      "gpa": "3.73",
+      "courses": [
+        "Computational Methods – 1 and 2, Bioinformatics Programming, Machine Learning, Data Analytics"
+      ]
+    },
+  ],
+  "work": [
+    {
+      "company": "",
+      "position": "Bioinformatics Scientist 2",
+      "startDate": "February 2022",
+      "endDate": "Present",
+      "summary": "Illumina, Inc., San Diego, CA",
+      "highlights": [
+        "Developed bioinformatics infectious disease applications for the MiSeq i100 instrument",
+        "Possess extensive experience in designing, developing, and optimizing Nextflow pipelines for high-throughput analysis workflows",
+        "Contributed to the development of multiple bioinformatics applications, including GISAID Uploader, Microbiome Metagenomics, Microbial Enrichment Analysis, DRAGEN COVID Lineage, DRAGEN Viral Lineage, and DRAGEN Targeted Microbial",
+        "Designed and implemented reusable Python modules integrated across various DRAGEN pipelines, enhancing functionality and performance of internal tools"
+      ]
+    },
+    {
+      "company": "Harvard Program in Therapeutic Science (HiTS)",
+      "position": "Bioinformatics Software Developer",
+      "website": "",
+      "startDate": "August 2020",
+      "endDate": "February 2022",
+      "summary": "Harvard Medical School, Boston, MA",
+      "highlights": [
+        "Developed Neuro Immune interactome pipeline using Nextflow and Python to study the interactions in different mouse pain models between Immune cell ligands and Neuron receptors using INDRA network and cellphonedb (github.com/indralab/panacea_indra)",
+        "Designed and developed a workflows using COSMOS to integrate and connect data from different omic (Phospho-proteomics and Transcriptomics) datasets to make network level causal reasoning in CFA and Naïve sciatic nerve samples",
+        "Built preprocessing workflows for inDrops and 10x single-cell RNA-Seq data using bcbio and CellRanger, respectively",
+        "Maintained and improved bulk and single-cell RNA-Seq pipelines for the Boston Children’s Hospital bioinformatics core",
+        "Contributed to and enhanced CXP-lite, a neuronal activity profiling tool, significantly improving performance and reducing manual effort for the Woolf Lab"
+      ]
+      
+    }
+    ,
+    {
+      "company": "Computational Methods-2",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "September 2019",
+      "endDate": "April 2020",
+      "summary": "Northeastern University, Boston, MA",
+      "highlights": [
+        "Led weekly lab sessions and office hours, supporting a cohort of 30 students in computational techniques and programming concepts",
+        "Provided individualized academic mentorship and guidance on course material and coding assignments",
+        "Conduct and evaluate student quizzes and assignments"
+      ]
+    },
+    {
+      "company": "Bhasin Lab",
+      "position": "Research Intern",
+      "website": "",
+      "startDate": "May 2019",
+      "endDate": "December 2019",
+      "summary": "Harvard Medical School, Boston, MA",
+      "highlights": [
+        "Designed and developed Single Cell Wizard, a free web application for processing 10X, CEL-Seq, and Drop-Seq single-cell RNA-Seq data.",
+        "Developed home brew tools for Single Cell Wizard pipeline like FASTQ demultiplexer and FASTQ cleaner to remove singleton nucleotides and low-quality reads from each sample",
+        "Assembled and created a Database for Gene expression markers that define cell types which can be used to annotate clusters of single cells via Gene Set Enrichment Analysis"
+      ]
+    },
+  ],
+  "volunteer": [
+    {
+      "organization": "Bhasin Lab",
+      "website": "https://bhasinlab.us/scw_page/scwiz.php",
+      "position": "Single Cell Wizard",
+      "startDate": "August 2019",
+      "endDate": "December 2019",
+      "summary": "Single Cell RNA-seq pre/post processing pipeline",
+      "highlights": [
+        "Single Cell Wizard is a comprehensive Single Cell RNA-Seq processing web-application which is a totally automated pipeline that can take raw FASTQ files, process them to generate feature barcode matrices and perform pre-processing, data normalization, quality control to differentially expressed genes, annotation of clusters and final visualization",
+      ]
+    },
+    {
+      "organization": "Northeastern University",
+      "website": "",
+      "position": "Indian Ayurvedic Bioflavonoids Database",
+      "startDate": "January 2019",
+      "endDate": "March 2019",
+      "summary": "",
+      "highlights": [
+      "Compiled over 100 plant metabolites in Ayurvedic formulations and forming up an interactome which could serve as a lead for potential drug targets that can be taken up for clinical trials",
+      ]
+    }
+  ],
+  
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

@@ -1,2 +1,1 @@
-# samuelbunga.github.io
-Private portfolio
+# yohana.github.io
