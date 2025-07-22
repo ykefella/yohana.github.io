@@ -1,28 +1,22 @@
 ---
 layout: project
 type: project
-image: images/bidmc_square.jpg
-title: Research Intern
+image: images/BUSM_logo.png
+title: Bioinformatics Analyst 
 permalink: projects/bhasinlab
 # All dates must be YYYY-MM-DD format!
-date: "May 2019 - Dec 2019"
+date: "July 2022 - present "
 labels:
-  - Perl
-  - Python
-  - PHP
   - R
+  - Python
+  - WDL
+  - Docker
   - BASH
-summary: Primarily responsible to develop a web application for Single Cell RNA-seq Pre/Post processing pipeline.
+  - Terra
+summary: Supporting RNA-seq pipeline optimization, data integration, and collaborative research for the Lung Pre-Cancer Atlas..
 ---
 
-<img class="ui medium right floated rounded image" src="../images/scwiz.PNG">
 
-While working as a Research Intern at Beth Israel Deaconess Medical Center / Harvard Medical School, Boston, I gained substantial knowledge in Single Cell Genomics as well as various Bioinformatic tools and pipelines. I was primarily responsible to work on to design and develop a scRNA-seq pre-processing pipeline using Perl/Python/R and BASH to process raw FASTQ files into feature-barcode matrices and perform pre-processing, data normalization, quality control to differentially expressed genes, annotation of clusters and final visualization.
-
-I have also developed tools like FASTQ de-multiplexer, barcode cleaner and filtering low quality reads, which I was able to benchmark against with the existing Alona sc-RNA-seq pipeline tools to see positive difference between my tools and the Alona’s.
-
-Finally, I wrapped the whole pipeline up into a web tool using PHP with email support to send output to the user when the job is finished.
-
-In this project I gained experience with single cell omics, work-flow and web application design and associated technologies.
+Maintain, update, and enhance RNA-seq pipelines written in Workflow Description Language (WDL) for processing NIH Human Tumor Atlas Network data using the Terra cloud platform. Possess extensive experience designing, developing, and optimizing WDL workflows for high-throughput data analyses. Conduct preprocessing, quality control, and metadata curation of multi-omic datasets, and support data management and uploads for the Lung Pre-Cancer Atlas Data Portal in compliance with data-sharing mandates. Perform in-depth analyses of bulk and single-cell RNA-seq data to advance Lung Pre-Cancer Atlas and lung chemoprevention research. Collaborate closely with PhD trainees, postdoctoral fellows, and faculty to analyze multi-omic data, and regularly contribute methods, results, figures, and text to scientific manuscripts, white papers, and grant applications.
  
-Source: <a href="https://bhasinlab.us/scw_page/scwiz.php">Single Cell Wizard</a>
+

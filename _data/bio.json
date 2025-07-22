@@ -1,29 +1,29 @@
 {
   "basics": {
-    "name": "Samuel Bunga",
-    "label": "Bioinformatics Software Developer",
-    "picture": "/images/sam.jpg",
-    "email": "bunga.s@northeastern.edu",
-    "phone": "857-701-9190",
-    "website": "https://samuelbunga.github.io",
-    "summary": "Hi! I'm a Bioinformatics Software Developer at Harvard Medical School. I am working on supporting the DARPA Panacea project which aims in developing new therapeutic drugs to block pain and inflammation using novel pharmacological platforms. My primary responsibilities are to develop and maintain existing RNA-Seq bulk/single-cell pipelines and also to develop new modules and integrate them into the pipelines using INDRA modeling systems developed at the Laboratory of Systems Pharmacology (LSP).",
+    "name": "Yohana Kefella",
+    "label": "Bioinformatics Analyst",
+    "picture": "/images/Yohana_headshot.jpg",
+    "email": "yohanakefella@gmail.com",
+    "phone": "617-447-0419",
+    "website": "https://yohana.github.io",
+    "summary": "Hi! I'm a Bioinformatics Analyst at Boston University Chobanian & Avedisian School of Medicine. I support research on molecular alterations underlying bronchial premalignant lesions, precursors to lung squamous cell carcinoma. My responsibilities include:\n\n- Maintaining and enhancing RNA-seq pipelines (WDL/Terra) for NIH Human Tumor Atlas data\n- Performing preprocessing, quality control, and metadata curation for multi-omic datasets\n- Managing and uploading data for the Lung Pre-Cancer Atlas Data Portal to meet data-sharing requirements\n- Conducting bulk and single-cell RNA-seq analyses for lung precancer and chemoprevention studies\n- Collaborating with trainees and faculty to analyze multi-omic data\n- Contributing figures, methods, and text for manuscripts and grant proposals",
     "location": {
       "address": "",
-      "postalCode": "92122",
-      "city": "San Diego",
+      "postalCode": "02119",
+      "city": "Boston",
       "countryCode": "USA",
       "region": "Massachusetts"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "samuelbunga",
-        "url": "http://github.com/samuelbunga"
+        "username": "ykefella",
+        "url": "https://github.com/ykefella"
       },
       {
         "network": "linkedin",
-        "username": "samuelbunga",
-        "url": "http://linkedin.com/in/samuelbunga"
+        "username": "ykefella",
+        "url": "https://www.linkedin.com/in/ykefella"
       },
       {
         "network": "instagram",
@@ -39,12 +39,12 @@
       ]
     },
     {
-      "name": "Network inference",
+      "name": "Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "Bioinformatics software development",
+      "name": "Bioinformatics pipeline",
       "keywords": [
       ]
     }
@@ -54,7 +54,7 @@
       "name": "Programming/Development",
       "level": "",
       "keywords": [
-        "Python", "JavaScript", "R", "Shell Scripting", "Nextflow", "PHP", "CI/CD", "Git", "AWS"
+        "Python", "R", "Shell Scripting", "Nextflow", "WDL", "Snakemake", "Git", "AWS"
       ]
     },
     
@@ -64,9 +64,9 @@
       "institution": "Northeastern University, Boston, MA",
       "area": "Bioinformatics",
       "studyType": "M.S.",
-      "startDate": "August 2018",
-      "endDate": "May 2020",
-      "gpa": "3.73",
+      "startDate": "September 2019",
+      "endDate": "December 2021",
+      "gpa": "3.875",
       "courses": [
         "Computational Methods – 1 and 2, Bioinformatics Programming, Machine Learning, Data Analytics"
       ]
@@ -74,87 +74,109 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "Bioinformatics Scientist 2",
-      "startDate": "February 2022",
+      "company": "Computational Biomedicine",
+      "position": "Bioinformatics Analyst",
+      "startDate": "July 2022",
       "endDate": "Present",
-      "summary": "Illumina, Inc., San Diego, CA",
+      "summary": "Boston University Chobanian & Avedisian School of Medicine, Boston MA",
       "highlights": [
-        "Developed bioinformatics infectious disease applications for the MiSeq i100 instrument",
-        "Possess extensive experience in designing, developing, and optimizing Nextflow pipelines for high-throughput analysis workflows",
-        "Contributed to the development of multiple bioinformatics applications, including GISAID Uploader, Microbiome Metagenomics, Microbial Enrichment Analysis, DRAGEN COVID Lineage, DRAGEN Viral Lineage, and DRAGEN Targeted Microbial",
-        "Designed and implemented reusable Python modules integrated across various DRAGEN pipelines, enhancing functionality and performance of internal tools"
+        "Maintain, update, and enhance a RNA-Seq pipeline (written in WDL) developed to process NIH Human Tumor Atlas Network Data using the Terra cloud platform",
+        "Possess extensive experience in designing, developing, and optimizing workfolw descriptive language (WDL)  for high-throughput analysis workflows",
+        "Conduct multi-omic data preprocessing, quality control, and metadata curation ",
+        "Support data management and data upload for the Lung Pre-Cancer Atlas Data Portal to comply with data sharing mandates",
+        "Perform data analyses on bulk and single-cell RNA-seq data to scientifically advance Lung Pre-Cancer Atlas and lung chemoprevention projects",
+        "Collaborate with PhD trainees, post-doctoral fellows, and faculty to process and analyze multi-omic data",
+        "Contribute methods, results, figures, and text to scientific manuscripts, white papers, and grant applications"
+
       ]
     },
     {
-      "company": "Harvard Program in Therapeutic Science (HiTS)",
-      "position": "Bioinformatics Software Developer",
+      "company": "Systems Biology Group, Merck Co & Inc., Exploratory Science Center ",
+      "position": "Bioinformatics Co-op/Intern",
       "website": "",
-      "startDate": "August 2020",
-      "endDate": "February 2022",
-      "summary": "Harvard Medical School, Boston, MA",
+      "startDate": "July 2021",
+      "endDate": "December 2021",
+      "summary": "Cambridge, MA",
       "highlights": [
-        "Developed Neuro Immune interactome pipeline using Nextflow and Python to study the interactions in different mouse pain models between Immune cell ligands and Neuron receptors using INDRA network and cellphonedb (github.com/indralab/panacea_indra)",
-        "Designed and developed a workflows using COSMOS to integrate and connect data from different omic (Phospho-proteomics and Transcriptomics) datasets to make network level causal reasoning in CFA and Naïve sciatic nerve samples",
-        "Built preprocessing workflows for inDrops and 10x single-cell RNA-Seq data using bcbio and CellRanger, respectively",
-        "Maintained and improved bulk and single-cell RNA-Seq pipelines for the Boston Children’s Hospital bioinformatics core",
-        "Contributed to and enhanced CXP-lite, a neuronal activity profiling tool, significantly improving performance and reducing manual effort for the Woolf Lab"
+        "Implemented supervised machine learning pipelines for omics data",
+        "Utilized Snakemake and Nexflow to establish reproducible ML pipelines",
+        "Utilized predictive modeling for mechanistic hypothesis generation and biomarker discovery in the microbiome field",
+        "Presented results at collaborative meetings with internal research groups"
       ]
       
     }
     ,
     {
-      "company": "Computational Methods-2",
-      "position": "Graduate Teaching Assistant",
+      "company": "Spectrus LLC",
+      "position": "Data Science Internship",
       "website": "",
-      "startDate": "September 2019",
-      "endDate": "April 2020",
-      "summary": "Northeastern University, Boston, MA",
+      "startDate": "June 2020",
+      "endDate": "August 2020",
+      "summary": "Beverly, MA",
       "highlights": [
-        "Led weekly lab sessions and office hours, supporting a cohort of 30 students in computational techniques and programming concepts",
-        "Provided individualized academic mentorship and guidance on course material and coding assignments",
-        "Conduct and evaluate student quizzes and assignments"
+        "Engaged with scientists to understand their data analysis challenges and develop ideas on how to manage their workflow",
+        "Worked on implementing a Mass Spectrometry Data Analysis Pipeline",
+        "Created interactive Rshiny applications to automate generation of SLD template, sample ID, load and retrieve Mass Spectrometry data from SQL database "
       ]
     },
-    {
-      "company": "Bhasin Lab",
-      "position": "Research Intern",
-      "website": "",
-      "startDate": "May 2019",
-      "endDate": "December 2019",
-      "summary": "Harvard Medical School, Boston, MA",
-      "highlights": [
-        "Designed and developed Single Cell Wizard, a free web application for processing 10X, CEL-Seq, and Drop-Seq single-cell RNA-Seq data.",
-        "Developed home brew tools for Single Cell Wizard pipeline like FASTQ demultiplexer and FASTQ cleaner to remove singleton nucleotides and low-quality reads from each sample",
-        "Assembled and created a Database for Gene expression markers that define cell types which can be used to annotate clusters of single cells via Gene Set Enrichment Analysis"
-      ]
-    },
+    
   ],
-  "volunteer": [
+  "Project experience": [
     {
-      "organization": "Bhasin Lab",
-      "website": "https://bhasinlab.us/scw_page/scwiz.php",
-      "position": "Single Cell Wizard",
-      "startDate": "August 2019",
-      "endDate": "December 2019",
-      "summary": "Single Cell RNA-seq pre/post processing pipeline",
+      "organization": "Section of Computational Biomedicine",
+      "website": "",
+      "position": "Impact of oral supplementation of sulforaphane for 12 months on lung cancer-related gene expression in former smokers at high risk for lung cancer: Results from a randomized placebo-controlled phase II clinical trial",
+      "startDate": "November 2022",
+      "endDate": "Present",
+      "summary": "",
       "highlights": [
-        "Single Cell Wizard is a comprehensive Single Cell RNA-Seq processing web-application which is a totally automated pipeline that can take raw FASTQ files, process them to generate feature barcode matrices and perform pre-processing, data normalization, quality control to differentially expressed genes, annotation of clusters and final visualization",
+        "The overall goal was to examine whether oral intake of sulforaphane for 12 months impacts the gene expression of previously identified lung cancer- and premalignant lesion-related gene signatures in bronchial and nasal brushing samples",
+        "Pre-processed and conducted quality control on bulk RNA-seq data from bronchial and nasal brushings using an RNA-seq cloud-based pipeline",
+        "Curated previously published NRF2, smoking, and lung cancer-associated gene signatures and identified signatures perturbed by sulforaphane treatment.  Identified similarities and differences between the nasal and bronchial brush gene signature scores associated with treatment using linear mixed effect models. Sulforaphane treatment over 12 months impacted lung cancer-associated expression in nasal but not in bronchial tissue from former smokers",
+        "Identified genes up- and down-regulated with treatment that were similar and different between nasal and bronchial brushes using linear mixed effect models.  The biology and cell type specificity of these genes was examined to identify potential sulforaphane effects on the epithelium",
       ]
     },
     {
       "organization": "Northeastern University",
       "website": "",
-      "position": "Indian Ayurvedic Bioflavonoids Database",
-      "startDate": "January 2019",
-      "endDate": "March 2019",
+      "position": "Single-cell landscape of lung squamous cell premalignancy in the NTCU induced mice model",
+      "startDate": "November 2023",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-      "Compiled over 100 plant metabolites in Ayurvedic formulations and forming up an interactome which could serve as a lead for potential drug targets that can be taken up for clinical trials",
+      "The overall goal is to understand the molecular and cellular alterations via scRNA-seq associated with lung squamous premalignant lesion development and progression in the N-nitroso-tris-chloroethylurea (NTCU) mouse model.   Sensitive (A/j) and resistant (C57BL/6J) strains of mice to NTCU were utilized to allow for characterization of alterations associated with repair versus lesion progression",
+      "Pre-processed and conducted quality control on the scRNA-seq data, performed clustering using different subsets of cell and different clustering methods, performed differential compositional analysis to identify cell states changes associated with strain, age, and lesion severity, identified copy number alterations in epithelial cells, and phenotyped cell clusters based on other mouse and human lung scRNA-seq datasets",
+      "Results suggest the expansion of a Keratin 5+ basal population in carcinogen-treated A/J mice with severe lesions that harbors copy number and gene expression alterations that may promote tumorigenesis. A subset of these alterations are shared with human lung squamous cell carcinoma, supporting the utility of the NTCU mouse model as a preclinical tool for understanding the mechanism that drive LUSC tumorigenesis",
       ]
     }
   ],
-  
+
+  "manuscripts": [
+    {
+      "organization": "NIH",
+      "website": "",
+      "position": "Epithelial miR-149-5p up-regulation is associated with immune evasion in progressive bronchial premalignant lesions",
+      "startDate": "February 2025",
+      "endDate": "",
+      "summary": "",
+    },
+    {
+      "organization": "NIH",
+      "website": "",
+      "position": "Placental transcriptome analysis in opioid-exposed versus non-opioid exposed pregnancies",
+      "startDate": "March 2025",
+      "endDate": "",
+      "summary": "",
+    },
+    {
+      "organization": "NIH",
+      "website": "",
+      "position": "Attention-based deep learning for analysis of pathology images and gene expression data in lung squamous premalignant lesions",
+      "startDate": "June 2025",
+      "endDate": "",
+      "summary": "",
+    },
+  ],
   "references": [
     {
       "name": "Available upon request",
